@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B. Cameron Gain | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/b.-cameron-gain/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/b.-cameron-gain/index.xml" rel="self" type="application/rss+xml" />
+    <description>B. Cameron Gain</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/b.-cameron-gain/avatar_hu4d3bdfaa29b62161f8f28d69b1794f4f_8823_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>B. Cameron Gain</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/b.-cameron-gain/</link>
+    </image>
+    
+  </channel>
+</rss>

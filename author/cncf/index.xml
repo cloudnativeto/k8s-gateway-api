@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CNCF | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/cncf/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/cncf/index.xml" rel="self" type="application/rss+xml" />
+    <description>CNCF</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/cncf/avatar_hu37315115c70d91ce70643ca216d4bac8_140924_270x270_fill_q75_h2_lanczos_center_2.webp</url>
+      <title>CNCF</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/cncf/</link>
+    </image>
+    
+  </channel>
+</rss>

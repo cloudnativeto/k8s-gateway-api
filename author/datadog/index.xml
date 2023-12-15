@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datadog | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/datadog/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/datadog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Datadog</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/datadog/avatar_hueabe4e66d44b7f400b64b9c283066383_19542_270x270_fill_q75_h2_lanczos_center_2.webp</url>
+      <title>Datadog</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/datadog/</link>
+    </image>
+    
+  </channel>
+</rss>

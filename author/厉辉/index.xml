@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>厉辉 | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/%E5%8E%89%E8%BE%89/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/%E5%8E%89%E8%BE%89/index.xml" rel="self" type="application/rss+xml" />
+    <description>厉辉</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/%E5%8E%89%E8%BE%89/avatar_hu273cd959d6007257193e2f2ec28ea0f6_39863_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>厉辉</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/%E5%8E%89%E8%BE%89/</link>
+    </image>
+    
+  </channel>
+</rss>

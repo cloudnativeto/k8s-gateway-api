@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>狄卫华 | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/translators/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/translators/index.xml" rel="self" type="application/rss+xml" />
+    <description>狄卫华</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/media/sharing.png</url>
+      <title>狄卫华</title>
+      <link>https://cloudnative.to/k8s-gateway-api/translators/</link>
+    </image>
+    
+  </channel>
+</rss>

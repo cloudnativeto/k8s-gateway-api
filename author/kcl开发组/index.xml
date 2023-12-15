@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KCL开发组 | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/kcl%E5%BC%80%E5%8F%91%E7%BB%84/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/kcl%E5%BC%80%E5%8F%91%E7%BB%84/index.xml" rel="self" type="application/rss+xml" />
+    <description>KCL开发组</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/kcl%E5%BC%80%E5%8F%91%E7%BB%84/avatar_hu4f7c908a755cc0c00c569d96fb59ad9a_3574_270x270_fill_lanczos_center_3.png</url>
+      <title>KCL开发组</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/kcl%E5%BC%80%E5%8F%91%E7%BB%84/</link>
+    </image>
+    
+  </channel>
+</rss>

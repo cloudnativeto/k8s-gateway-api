@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSM | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/osm/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/osm/index.xml" rel="self" type="application/rss+xml" />
+    <description>OSM</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/osm/avatar_huc3f4b0d05c6b12f631cefd5e2d2aa6ff_3394_270x270_fill_lanczos_center_3.png</url>
+      <title>OSM</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/osm/</link>
+    </image>
+    
+  </channel>
+</rss>

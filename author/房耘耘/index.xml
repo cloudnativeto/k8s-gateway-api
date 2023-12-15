@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>房耘耘 | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/%E6%88%BF%E8%80%98%E8%80%98/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/%E6%88%BF%E8%80%98%E8%80%98/index.xml" rel="self" type="application/rss+xml" />
+    <description>房耘耘</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/%E6%88%BF%E8%80%98%E8%80%98/avatar_hu6f66991d06ce38c3a1f2433f61b5121a_16337_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>房耘耘</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/%E6%88%BF%E8%80%98%E8%80%98/</link>
+    </image>
+    
+  </channel>
+</rss>

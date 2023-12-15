@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>孙东民 | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/%E5%AD%99%E4%B8%9C%E6%B0%91/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/%E5%AD%99%E4%B8%9C%E6%B0%91/index.xml" rel="self" type="application/rss+xml" />
+    <description>孙东民</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/%E5%AD%99%E4%B8%9C%E6%B0%91/avatar_hu430492be6354de9d70bcbfd66b599686_27911_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>孙东民</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/%E5%AD%99%E4%B8%9C%E6%B0%91/</link>
+    </image>
+    
+  </channel>
+</rss>

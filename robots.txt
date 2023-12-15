@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://cloudnative.to/k8s-gateway-api/sitemap.xml

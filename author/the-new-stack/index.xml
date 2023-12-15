@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The New Stack | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/the-new-stack/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/the-new-stack/index.xml" rel="self" type="application/rss+xml" />
+    <description>The New Stack</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/the-new-stack/avatar_hu1140c20a64fbbcf64929a71e7b5f3aea_8402_270x270_fill_lanczos_center_3.png</url>
+      <title>The New Stack</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/the-new-stack/</link>
+    </image>
+    
+  </channel>
+</rss>

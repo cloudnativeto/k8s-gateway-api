@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gernot Heiser | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/gernot-heiser/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/gernot-heiser/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gernot Heiser</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/gernot-heiser/avatar_hub5e85899e376f3df3941a7dfbe0d092e_13685_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Gernot Heiser</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/gernot-heiser/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andreja Velimirovic | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/andreja-velimirovic/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/andreja-velimirovic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andreja Velimirovic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/andreja-velimirovic/avatar_hu2f3dcc0c6e7456e36645ed7502b2350f_5352_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Andreja Velimirovic</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/andreja-velimirovic/</link>
+    </image>
+    
+  </channel>
+</rss>

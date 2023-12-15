@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>胡渐飞 | Kubernetes Gateway API SIG</title>
+    <link>https://cloudnative.to/k8s-gateway-api/author/%E8%83%A1%E6%B8%90%E9%A3%9E/</link>
+      <atom:link href="https://cloudnative.to/k8s-gateway-api/author/%E8%83%A1%E6%B8%90%E9%A3%9E/index.xml" rel="self" type="application/rss+xml" />
+    <description>胡渐飞</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>https://cloudnative.to/k8s-gateway-api/author/%E8%83%A1%E6%B8%90%E9%A3%9E/avatar_hu085f789983e826520a42c6b88ab57365_33978_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>胡渐飞</title>
+      <link>https://cloudnative.to/k8s-gateway-api/author/%E8%83%A1%E6%B8%90%E9%A3%9E/</link>
+    </image>
+    
+  </channel>
+</rss>

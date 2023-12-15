@@ -1,0 +1,2375 @@
+<!DOCTYPE html><html lang="zh" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="中立的云原生终端用户社区" />
+
+  
+  <link rel="alternate" hreflang="zh" href="https://cloudnative.to/k8s-gateway-api/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#0a55a7" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/k8s-gateway-api/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.1/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/k8s-gateway-api/css/wowchemy.008259417e6adf8980695ebbbb46553f.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?f3dc895ea3bd6186cd835841d365c103";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+  
+  
+  
+
+  
+    <link rel="alternate" href="/k8s-gateway-api/index.xml" type="application/rss+xml" title="Kubernetes Gateway API SIG" />
+  
+
+  
+    <link rel="manifest" href="/k8s-gateway-api/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/k8s-gateway-api/media/icon_hu0802e500a55b0406ddf0453824effa47_6997_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/k8s-gateway-api/media/icon_hu0802e500a55b0406ddf0453824effa47_6997_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://cloudnative.to/k8s-gateway-api/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@CloudNativeCN" />
+    <meta property="twitter:creator" content="@CloudNativeCN" />
+  
+  <meta property="og:site_name" content="Kubernetes Gateway API SIG" />
+  <meta property="og:url" content="https://cloudnative.to/k8s-gateway-api/" />
+  <meta property="og:title" content="Kubernetes Gateway API SIG" />
+  <meta property="og:description" content="中立的云原生终端用户社区" /><meta property="og:image" content="https://cloudnative.to/k8s-gateway-api/media/sharing.png" />
+    <meta property="twitter:image" content="https://cloudnative.to/k8s-gateway-api/media/sharing.png" /><meta property="og:locale" content="zh" />
+  
+    
+      <meta property="og:updated_time" content="2022-07-16T00:00:00&#43;08:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://cloudnative.to/k8s-gateway-api?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://cloudnative.to/k8s-gateway-api"
+}
+</script>
+
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://cloudnative.to/k8s-gateway-api",
+  "name": "云原生社区（中国）",
+  "logo": "https://cloudnative.to/k8s-gateway-api/media/icon_hu0802e500a55b0406ddf0453824effa47_6997_192x192_fill_lanczos_center_3.png",
+  "image": "https://cloudnative.to/k8s-gateway-api/media/sharing.png",
+  
+  
+  
+  "url": "https://cloudnative.to/k8s-gateway-api"
+}
+</script>
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Kubernetes Gateway API SIG</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
+  <button onclick="topFunction()" id="backTopBtn" title="Go to top"><i class="fa-solid fa-circle-up" aria-hidden="true"></i></button>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/k8s-gateway-api/js/wowchemy-init.min.62d6f8dfe8493f1c68557dde65bec362.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6 search-title">
+          <p>搜索</p>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="关闭"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="搜索...">
+        
+      </div>
+
+      
+      
+
+      
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+      <div id="search-common-queries">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/k8s-gateway-api">Kubernetes Gateway API SIG</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="切换导航">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Kubernetes Gateway API SIG</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/k8s-gateway-api/community"><span>社区</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/k8s-gateway-api/blog"><span>博客</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>资料</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="https://cloudnative.to/envoy/" data-target="https://cloudnative.to/envoy/"><span>Kubernetes Gateway API 中文文档</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/k8s-gateway-api/event"><span>活动</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/k8s-gateway-api/#feed"><span>更新</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/k8s-gateway-api/#tags"><span>标签</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/k8s-gateway-api/#about"><span>关于</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        <li class="nav-item">
+            <a class="nav-link" href="/community/join/" data-toggle="tooltip" data-placement="bottom" title="加入社区" aria-label="主站"><i class="fa-brands fa-weixin" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item">
+            <a class="nav-link js-search" href="#" data-toggle="tooltip" data-placement="bottom" title="搜索" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://github.com/cloudnativeto/k8s-gateway-api" target="_blank" rel="noopener" data-toggle="tooltip" data-placement="bottom" title="查看源码" aria-label="查看源码" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a href="#" class="nav-link set-theme">
+            <i class="fa fa-sun" aria-hidden="true" id="theme-icon"></i>
+          </a>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="hero" class="home-section wg-hero dark "  >
+   <div class="home-section-bg " style="background-image: linear-gradient(90deg, #0a55a7, #4f7bab);">
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-md-6 text-center text-md-left">
+
+
+    
+      <h1 class="hero-title">欢迎来到云原生社区官网</h1>
+    
+
+    
+      <div class="hero-lead"><p>云原生社区是一个独立第三方云原生终端用户和泛开发者社区，成立于 2020 年 5 月，旨在推广云原生技术与实践，促进云原生技术的普及和发展。</p>
+</br>
+</div>
+    
+
+    
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+    <p class="cta-btns">
+      <a href="/community/join/"  class="btn btn-light btn-lg mb-md-1"><i class="fas fa-fa-solid fa-user-group pr-1" aria-hidden="true"></i>加入社区</a>
+
+      
+      
+        
+        
+        
+        
+          
+        
+      <a href="/k8s-gateway-api/blog"  class="hero-cta-alt btn-lg pl-md-4">阅读博客 <i class="fas fa-angle-right"></i></a>
+      
+    </p>
+    
+
+    
+    
+
+  
+  
+  </div>
+  <div class="col-12 mx-auto col-md-6  hero-media">
+      
+      <img src="/k8s-gateway-api/media/hero.svg" alt="欢迎来到云原生社区官网">
+    
+  </div>
+</div>
+
+
+
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="slider" class="home-section wg-slider   carousel slide"  data-ride="carousel" data-interval="5000">
+   <div class="home-section-bg " >
+     
+   </div>
+    
+
+    
+
+      
+
+
+
+
+<ol class="carousel-indicators">
+  
+  <li data-target="#slider" data-slide-to="0" class="active"></li>
+  
+  <li data-target="#slider" data-slide-to="1" ></li>
+  
+  <li data-target="#slider" data-slide-to="2" ></li>
+  
+  <li data-target="#slider" data-slide-to="3" ></li>
+  
+</ol>
+
+
+<div class="carousel-inner">
+  
+
+    
+    
+
+    
+      
+    
+
+    
+      
+    
+
+    
+      
+      
+        
+      
+      
+        
+      
+   
+
+  <div class="carousel-item active " style=" height: 460px; background-color: #0a55a7;background-image: url(&#39;https://cloudnative.to/k8s-gateway-api/media/guangzhou.webp&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+    <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="-webkit-backdrop-filter: brightness(0.3); backdrop-filter: brightness(0.3);">
+      
+      <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: center;">
+          <h1 class="hero-title">
+            云原生金融科技开放日
+          </h1>
+
+          
+          <p class="hero-lead" style="margin: 0 auto 0 auto;">
+            2023 年 12 月 2 日（周六），广州天河区林和东路 285 号天安人寿中心 28 楼微赞会议室
+          </p>
+          
+
+          
+            
+            
+            
+              
+            
+            <p>
+              <a href="/event/cloud-native-meetup-guangzhou-13/" class="btn btn-light btn-lg mt-3"><i class="fas fa-fa-solid fa-square-up-right" style="padding-right: 10px;"></i>查看回顾</a>
+            </p>
+          
+        </div>
+    </div>
+  </div>
+  
+
+    
+    
+
+    
+      
+    
+
+    
+      
+    
+
+    
+      
+      
+        
+      
+      
+        
+      
+   
+
+  <div class="carousel-item " style=" height: 460px; background-color: #0a55a7;background-image: url(&#39;https://cloudnative.to/k8s-gateway-api/media/chengdu.webp&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+    <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="-webkit-backdrop-filter: brightness(0.3); backdrop-filter: brightness(0.3);">
+      
+      <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: center;">
+          <h1 class="hero-title">
+            云原生社区成都站 Meetup
+          </h1>
+
+          
+          <p class="hero-lead" style="margin: 0 auto 0 auto;">
+            2023 年 8 月 19 日（周六），成都新希望天祥广场 3 层冲鸭空间
+          </p>
+          
+
+          
+            
+            
+            
+              
+            
+            <p>
+              <a href="https://mp.weixin.qq.com/s/hL290d2om3kDGajKMJQPFQ" class="btn btn-light btn-lg mt-3"><i class="fas fa-fa-solid fa-square-up-right" style="padding-right: 10px;"></i>查看回顾</a>
+            </p>
+          
+        </div>
+    </div>
+  </div>
+  
+
+    
+    
+
+    
+      
+    
+
+    
+      
+    
+
+    
+      
+      
+        
+      
+      
+        
+      
+   
+
+  <div class="carousel-item " style=" height: 460px; background-color: #0a55a7;background-image: url(&#39;https://cloudnative.to/k8s-gateway-api/media/beijing.webp&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+    <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="-webkit-backdrop-filter: brightness(0.3); backdrop-filter: brightness(0.3);">
+      
+      <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: center;">
+          <h1 class="hero-title">
+            可观测性峰会 2023
+          </h1>
+
+          
+          <p class="hero-lead" style="margin: 0 auto 0 auto;">
+            2023 年 4 月 22 日（周六），北京奥加美术馆酒店
+          </p>
+          
+
+          
+            
+            
+            
+              
+            
+            <p>
+              <a href="/blog/observability-summit-2023-recap/" class="btn btn-light btn-lg mt-3"><i class="fas fa-fa-solid fa-square-up-right" style="padding-right: 10px;"></i>回顾及 PPT 下载</a>
+            </p>
+          
+        </div>
+    </div>
+  </div>
+  
+
+    
+    
+
+    
+      
+    
+
+    
+      
+    
+
+    
+      
+      
+        
+      
+      
+        
+      
+   
+
+  <div class="carousel-item " style=" height: 460px; background-color: #0a55a7;background-image: url(&#39;https://cloudnative.to/k8s-gateway-api/media/write.jpg&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+    <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="-webkit-backdrop-filter: brightness(0.3); backdrop-filter: brightness(0.3);">
+      
+      <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: center;">
+          <h1 class="hero-title">
+            征稿活动开启
+          </h1>
+
+          
+          <p class="hero-lead" style="margin: 0 auto 0 auto;">
+            为了促进社区交流，社区现开启征稿活动，欢迎提交稿件。
+          </p>
+          
+
+          
+            
+            
+            
+              
+            
+            <p>
+              <a href="/community/contribute/" class="btn btn-light btn-lg mt-3"><i class="fas fa-fa-solid fa-circle-info" style="padding-right: 10px;"></i>查看详情</a>
+            </p>
+          
+        </div>
+    </div>
+  </div>
+  
+</div>
+
+
+<a class="carousel-control-prev" href="#slider" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#slider" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+  <span class="sr-only">Next</span>
+</a>
+
+
+    
+
+    
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="intro" class="home-section wg-featurette  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>社区目标</h1>
+    <p>我们在做什么？</p>
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fa-solid fa-solid-fa-solid fa-user-group"></i></div>
+    
+    <div class="section-subheading">社区构建</div>
+    <p>致力于构建中国最专业的云原生开发者社区</p>
+  </div>
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fa-solid fa-solid-fa-solid fa-graduation-cap"></i></div>
+    
+    <div class="section-subheading">知识传播</div>
+    <p>促进云原生知识在中国的传播</p>
+  </div>
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fa-brands fa-brands-fa-brands fa-osi"></i></div>
+    
+    <div class="section-subheading">项目孵化</div>
+    <p>孵化中国原创的云原生开源项目</p>
+  </div>
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="feed" class="home-section wg-pages  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">最近更新</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 ">
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/k8s-gateway-api/community/join/" >如何加入社区</a>
+    </div>
+
+    
+    <a href="/k8s-gateway-api/community/join/"  class="summary-link">
+      <div class="article-style">
+        本文将指导你加入云原生社区微信群。
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  <div>
+  
+  
+  
+  
+  
+  
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/k8s-gateway-api/category/%E7%A4%BE%E5%8C%BA/" class="text-capitalize">社区</a></span>
+  
+  </div>
+
+  
+  <span class="article-date">
+    
+    
+      
+          
+          发布于
+      
+    
+    2022-07-16
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/k8s-gateway-api/blog/7-ways-to-fail-at-microservices/" >避免在微服务上失败的 7 个关注点</a>
+    </div>
+
+    
+    <a href="/k8s-gateway-api/blog/7-ways-to-fail-at-microservices/"  class="summary-link">
+      <div class="article-style">
+        作者总结了她经历的一些导致微服务落地失败的情况，并提出了 7 个重要的关注点以引导大家来尽量避免。
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  <div>
+  
+  
+  
+  
+    <i class="fa-solid fa-feather"></i>
+    
+
+  <span >
+      <a href="/k8s-gateway-api/author/holly-commins/">Holly Commins</a></span>
+    
+    <span class="middot-divider"></span>
+    
+  
+  
+  
+  
+  
+  
+    <i class="fa fa-language"></i>
+    
+
+  <span >
+      <a href="/k8s-gateway-api/translators/%E5%BC%A0%E6%B5%B7%E7%AB%8B/">张海立</a></span>
+    <span class="middot-divider"></span>
+  
+  
+  
+  
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/k8s-gateway-api/category/%E4%BA%91%E5%8E%9F%E7%94%9F/" class="text-capitalize">云原生</a></span>
+  
+  </div>
+
+  
+  <span class="article-date">
+    
+    
+      
+          
+          发布于
+      
+    
+    2022-02-18
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  字数 6496
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+      阅读时长 30 分钟
+  </span>
+  
+
+  
+  
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.infoq.com/profile/Holly-Cummins/" target="_blank" rel="noopener">
+    <i class="fa fa-language mr-1"></i>阅读英文版原文</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/k8s-gateway-api/event/cloud-native-meetup-beijing-02/" >云原生社区 meetup 第二期北京站</a>
+    </div>
+
+    
+    <a href="/k8s-gateway-api/event/cloud-native-meetup-beijing-02/"  class="summary-link">
+      <div class="article-style">
+        本次活动关注 Istio、云原生存储、可观测性、DubboGo 等。
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          2020-12-20 下午 1:00 - 下午 6:00
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>中国北京</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/k8s-gateway-api/author/%E5%AE%8B%E5%87%80%E8%B6%85/">宋净超</a></span>, <span >
+      <a href="/k8s-gateway-api/author/%E5%AD%99%E5%8F%AC%E6%98%8C/">孙召昌</a></span>, <span >
+      <a href="/k8s-gateway-api/author/%E8%B5%B5%E6%96%B0/">赵新</a></span>, <span >
+      <a href="/k8s-gateway-api/author/%E5%BC%A0%E5%9F%8E%E5%85%83%E4%B9%99/">张城（元乙）</a></span>, <span >
+      <a href="/k8s-gateway-api/author/%E5%88%98%E7%A1%95%E7%84%B6/">刘硕然</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/cloudnativeto/academy/tree/master/meetup/02-beijing" target="_blank" rel="noopener">
+  演示文稿
+</a>
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/k8s-gateway-api/event/cloud-native-meetup-beijing-02/" >
+      <img src="/k8s-gateway-api/event/cloud-native-meetup-beijing-02/featured_hu273cd959d6007257193e2f2ec28ea0f6_509120_150x0_resize_q75_h2_lanczos.webp" height="100" width="150"
+           alt="云原生社区 meetup 第二期北京站" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="tags" class="home-section wg-tag-cloud  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">标签云</h1>
+            <p class="mt-1">云原生社区资料分类</p>
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="col-12 text-center">
+  
+
+  
+
+    
+    
+    
+    
+    
+    
+
+    <div class="tag-cloud">
+      
+        
+        
+        
+        <a href="/k8s-gateway-api/tag/chubaofs/" style="font-size:0.8rem">ChubaoFS</a>
+      
+        
+        
+        
+        <a href="/k8s-gateway-api/tag/dubbogo/" style="font-size:0.8rem">DubboGo</a>
+      
+        
+        
+        
+        <a href="/k8s-gateway-api/tag/istio/" style="font-size:0.8rem">Istio</a>
+      
+        
+        
+        
+        <a href="/k8s-gateway-api/tag/opentelemetry/" style="font-size:0.8rem">OpenTelemetry</a>
+      
+        
+        
+        
+        <a href="/k8s-gateway-api/tag/springcloud/" style="font-size:0.8rem">SpringCloud</a>
+      
+        
+        
+        
+        <a href="/k8s-gateway-api/tag/%E7%A4%BE%E5%8C%BA/" style="font-size:1.8725805810714777rem">社区</a>
+      
+        
+        
+        
+        <a href="/k8s-gateway-api/tag/%E5%BE%AE%E6%9C%8D%E5%8A%A1/" style="font-size:0.8rem">微服务</a>
+      
+        
+        
+        
+        <a href="/k8s-gateway-api/tag/%E4%BA%91%E5%8E%9F%E7%94%9F/" style="font-size:0.8rem">云原生</a>
+      
+    </div>
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="about" class="home-section wg-experience  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">关于云原生社区</h1>
+            <p class="mt-1">关注社区微信公众号</p>
+            
+            
+            <p><img src="img/wechat.jpg" width="128px" alt="wechat"></p>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+
+  
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border exp-fill">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+
+              <div class="section-subheading card-title exp-title text-muted my-0">社区介绍</div>
+              <div class="section-subheading card-title exp-company text-muted my-0"></div>
+              <div class="text-muted exp-meta">
+                2020 年 5 月 12 日 –
+                
+                  现在
+                
+                
+              </div>
+
+          <div class="card-text">云原生社区是一个独立第三方云原生终端用户和泛开发者社区，成立于 2020 年 5 月，旨在推广云原生技术与实践，促进云原生技术的普及和发展，致力于为云原生爱好者和从业者搭建一个学习、交流、分享的平台。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+<!-- /sponsors -->
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+  <div class="copyright py-4 bg-footer">
+      <div class="row justify-content-center">
+        <div class="text-center footer-color">
+          <p class="mb-0">© 2020-2024 云原生社区保留所有权利</p>
+        </div>
+    </div>
+  </div>
+
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/k8s-gateway-api/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+  
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.1/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <div class="article-metadata search-hit-type">{{relpermalink}}</div>
+          <a href="{{relpermalink}}">{{title}}</a>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/k8s-gateway-api/zh/js/wowchemy.min.27bfa4a749fe1d78b45ea21d607b67f4.js"></script>
+
+
+
+
+
+
+
+<script>
+
+var mybutton = document.getElementById("backTopBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+
+
+
+
+<script>
+
+
+
+(function() {
+  'use strict';
+
+  if(!document.queryCommandSupported('copy')) {
+    return;
+  }
+
+  function flashCopyMessage(el, msg) {
+    el.className = "highlight-copy-btn";
+    el.textContent = msg;
+    setTimeout(function() {
+      el.textContent = "";
+      el.className = "highlight-copy-btn fa fa-copy";
+    }, 1000);
+  }
+
+  function selectText(node) {
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(node);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    return selection;
+  }
+
+  function addCopyButton(containerEl) {
+    var copyBtn = document.createElement("button");
+    copyBtn.className = "highlight-copy-btn fa fa-copy";
+    copyBtn.textContent = "";
+
+    var codeEl = containerEl.firstElementChild;
+    copyBtn.addEventListener('click', function() {
+      try {
+        var selection = selectText(codeEl);
+        document.execCommand('copy');
+        selection.removeAllRanges();
+        
+        flashCopyMessage(copyBtn, '已复制')
+        
+      } catch(e) {
+        console && console.log(e);
+        flashCopyMessage(copyBtn, 'Failed :\'(')
+      }
+    });
+
+    containerEl.appendChild(copyBtn);
+  }
+
+  
+  var highlightBlocks = document.getElementsByClassName('highlight');
+  Array.prototype.forEach.call(highlightBlocks, addCopyButton);
+})();
+</script>
+
+
+
+<script>
+
+function Collapse(e){
+  var node = document.getElementById(e);
+  if (node.className.indexOf('fa-angle-down') > -1){
+    node.setAttribute("class", "fa-solid fa-angle-right");
+    }else{
+    node.setAttribute("class", "fa-solid fa-angle-down");
+    }
+}
+</script>
+
+
+</body>
+</html>
