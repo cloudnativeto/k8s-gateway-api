@@ -22,6 +22,3 @@ jobs:
         with:
           personal_token: ${{ secrets.TOKEN }}
           publish_dir: ./public
-        #   keep_files: true
-          publish_branch: master
-          cname: cloudnative.to
