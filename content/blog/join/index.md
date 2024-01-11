@@ -13,7 +13,7 @@ tags: ["社区"]
 
 Gateway API SIG 的成立标志着云原生社区在网络层面的进一步深化和专业化。[Kubernetes Gateway API](https://gateway-api.sigs.k8s.io/) 作为 Kubernetes 网络层的一个重要组成部分，其重要性日益凸显。这个新成立的 SIG 旨在聚集对 Kubernetes 网络、特别是 Gateway API 感兴趣的开发者和专家，共同推动该领域的技术进步和生态建设。
 
-在这次成立的 Gateway API SIG 中，我们特别联合了国内众多知名的 Gateway API 实现项目的维护者和贡献者，包括 [BIG-IP Kubernetes Gateway](https://github.com/f5devcentral/bigip-kubernetes-gateway)、[Easegress](https://github.com/megaease/easegress)、[Envoy Gateway](https://github.com/envoyproxy/gateway)、[NGINX Gateway Fabric](https://github.com/nginxinc/nginx-gateway-fabric)、[Flomesh Service Mesh](https://github.com/flomesh-io)、[Higress](https://github.com/alibaba/higress)、[Istio](https://github.com/istio/istio)、[Kong KIC](https://github.com/kong/kubernetes-ingress-controller) 等。通过 Gateway API SIG，这些行业领先者将能够更深入地与国内开发者进行交流和合作，共同推动 Gateway API 技术的发展和应用。
+在这次成立的 Gateway API SIG 中，我们特别联合了国内众多知名的 Gateway API 实现项目的维护者和贡献者，包括 [BIG-IP Kubernetes Gateway](https://github.com/f5devcentral/bigip-kubernetes-gateway)、[Easegress](https://github.com/megaease/easegress)、[Envoy Gateway](https://github.com/envoyproxy/gateway)、[Flomesh Service Mesh](https://github.com/flomesh-io)、[Higress](https://github.com/alibaba/higress)、[Istio](https://github.com/istio/istio)、[Kong KIC](https://github.com/kong/kubernetes-ingress-controller) 等。通过 Gateway API SIG，这些行业领先者将能够更深入地与国内开发者进行交流和合作，共同推动 Gateway API 技术的发展和应用。
 
 ### Gateway API SIG 的核心任务
 
