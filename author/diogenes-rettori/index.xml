@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Diógenes Rettori | Kubernetes Gateway API SIG</title>
+    <title>Diogenes Rettori | Kubernetes Gateway API SIG</title>
     <link>https://cloudnative.to/k8s-gateway-api/author/diogenes-rettori/</link>
       <atom:link href="https://cloudnative.to/k8s-gateway-api/author/diogenes-rettori/index.xml" rel="self" type="application/rss+xml" />
-    <description>Diógenes Rettori</description>
+    <description>Diogenes Rettori</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
     <image>
       <url>https://cloudnative.to/k8s-gateway-api/author/diogenes-rettori/avatar_hue38add62c87b7486d80c9f3fda25dfc1_12220_270x270_fill_q75_lanczos_center.jpg</url>
-      <title>Diógenes Rettori</title>
+      <title>Diogenes Rettori</title>
       <link>https://cloudnative.to/k8s-gateway-api/author/diogenes-rettori/</link>
     </image>
     
