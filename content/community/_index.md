@@ -7,6 +7,7 @@ icon_pack: fas
 title: 社区参与指南
 date: '2022-07-16T00:00:00+08:00'
 type: book # Do not modify.
+draft: true
 cascade:
   commentable: true
   tags: ["社区"]

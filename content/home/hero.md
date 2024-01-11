@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 10
-title: 欢迎来到云原生社区官网
+title: K8s Gateway API SIG
 hero_media: hero.svg
 design:
   background:
@@ -10,14 +10,14 @@ design:
     gradient_end: '#4f7bab'
     text_color_light: true
 cta:
-  url: "/community/join/"
-  label: 加入社区
+  url: "blog/join/"
+  label: 加入小组
   icon: fa-solid fa-user-group
 cta_alt:
   url: "blog"
   label: 阅读博客
 ---
 
-云原生社区是一个独立第三方云原生终端用户和泛开发者社区，成立于 2020 年 5 月，旨在推广云原生技术与实践，促进云原生技术的普及和发展。
+欢迎来到 Kubernetes Gateway  API SIG（特别兴趣小组），该小组是云原生社区旗下的专业讨论组，关注于 Kubernetes Gateway API 的设计、实现和优化。
 
 </br>

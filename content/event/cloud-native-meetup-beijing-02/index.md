@@ -1,7 +1,7 @@
 ---
 title: "云原生社区 meetup 第二期北京站"
-
 event: "云原生社区 meetup 第二期北京站"
+draft: true
 event_url: "https://3372087382093.huodongxing.com/event/5574970282500"
 
 location: 中国北京

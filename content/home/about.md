@@ -14,11 +14,14 @@ date_format: 2006 年 1 月 2 日
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with `>-`.
 experience:
-  - title: '社区介绍'
+  - title: '关于 Kubernetes Gateway API SIG'
     location: ''
-    date_start: '2020-05-12'
+    date_start: '2024-01-11'
     description: >-
-      云原生社区是一个独立第三方云原生终端用户和泛开发者社区，成立于 2020 年 5 月，旨在推广云原生技术与实践，促进云原生技术的普及和发展，致力于为云原生爱好者和从业者搭建一个学习、交流、分享的平台。
+      云原生社区 Kubernetes Gateway API SIG 将专注于以下几个核心任务：
+       - 技术交流与协作：提供一个平台，让社区成员就 Gateway API 的设计、实现和优化进行深入讨论和交流。
+       - 最佳实践分享：整理和分享在使用 Gateway API 过程中的最佳实践，帮助社区成员更有效地利用这一技术。
+       - 生态系统构建：推动与 Gateway API 相关的项目和工具的发展，构建健康的生态系统。
 design:
   columns: "2"
   view: list

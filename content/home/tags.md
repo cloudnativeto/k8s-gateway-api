@@ -11,7 +11,7 @@ headless: true
 weight: 65
 
 title: '标签云'
-subtitle: '云原生社区资料分类'
+subtitle: '博客标签'
 
 content:
   # Page type to display. E.g. project.

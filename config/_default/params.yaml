@@ -37,14 +37,14 @@ header:
     show_language: false
     show_day_night: true
     show_search: true
-    show_github: true
-    show_home: true
+    show_github: false
+    show_home: false
     highlight_active_link: true
     home: "/community/join/"
 
 footer:
   copyright:
-    notice: '© 2020-2024 云原生社区保留所有权利'
+    notice: '©2024 云原生社区保留所有权利'
     license:
       enable: false
       allow_derivatives: false
@@ -83,9 +83,9 @@ features:
       show_count: true
     giscus:
       repo: 'cloudnativeto/k8s-gateway-api'
-      repo_id: 'MDEwOlJlcG9zaXRvcnkyMzc3NDUxOTA='
-      category_id: 'MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyMDU5MzUy'
-      category: "General"
+      repo_id: 'R_kgDOK5_fQw'
+      category_id: 'DIC_kwDOK5_fQ84CcWJ4'
+      category: "Announcements"
       loading: "lazy"
       crossorigin: "annoymous"
       reaction_enabled: '1'

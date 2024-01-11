@@ -2,6 +2,7 @@
 widget: featurette
 headless: true
 weight: 20
+active: false
 title: 社区目标
 subtitle: 我们在做什么？
 feature:
