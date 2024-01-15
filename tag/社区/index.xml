@@ -20,7 +20,7 @@
       <description>&lt;p&gt;在云原生技术的不断发展和演进中，云原生社区一直致力于推动各种创新和最佳实践的交流与分享。继 Kubernetes、Istio、Envoy、可观测性等特别兴趣小组（SIG）之后，社区再次迎来新的里程碑——Kubernetes Gateway API SIG（下文简称 Gateway API SIG）的成立。&lt;/p&gt;
 &lt;h3 id=&#34;gateway-api-sig-成立的意义&#34;&gt;Gateway API SIG 成立的意义&lt;/h3&gt;
 &lt;p&gt;Gateway API SIG 的成立标志着云原生社区在网络层面的进一步深化和专业化。&lt;a href=&#34;https://gateway-api.sigs.k8s.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kubernetes Gateway API&lt;/a&gt; 作为 Kubernetes 网络层的一个重要组成部分，其重要性日益凸显。这个新成立的 SIG 旨在聚集对 Kubernetes 网络、特别是 Gateway API 感兴趣的开发者和专家，共同推动该领域的技术进步和生态建设。&lt;/p&gt;
-&lt;p&gt;在这次成立的 Gateway API SIG 中，我们特别联合了国内众多知名的 Gateway API 实现项目的维护者和贡献者，包括 &lt;a href=&#34;https://github.com/f5devcentral/bigip-kubernetes-gateway&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIG-IP Kubernetes Gateway&lt;/a&gt;、&lt;a href=&#34;https://github.com/megaease/easegress&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Easegress&lt;/a&gt;、&lt;a href=&#34;https://github.com/envoyproxy/gateway&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Envoy Gateway&lt;/a&gt;、&lt;a href=&#34;https://github.com/flomesh-io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flomesh Service Mesh&lt;/a&gt;、&lt;a href=&#34;https://github.com/alibaba/higress&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Higress&lt;/a&gt;、&lt;a href=&#34;https://github.com/istio/istio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Istio&lt;/a&gt;、&lt;a href=&#34;https://github.com/kong/kubernetes-ingress-controller&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kong KIC&lt;/a&gt; 等。通过 Gateway API SIG，这些行业领先者将能够更深入地与国内开发者进行交流和合作，共同推动 Gateway API 技术的发展和应用。&lt;/p&gt;
+&lt;p&gt;在这次成立的 Gateway API SIG 中，我们特别联合了国内众多知名的 Gateway API 实现项目的维护者和贡献者，包括 &lt;a href=&#34;https://github.com/f5devcentral/bigip-kubernetes-gateway&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIG-IP Kubernetes Gateway&lt;/a&gt;、&lt;a href=&#34;https://github.com/megaease/easegress&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Easegress&lt;/a&gt;、&lt;a href=&#34;https://github.com/envoyproxy/gateway&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Envoy Gateway&lt;/a&gt;、&lt;a href=&#34;https://github.com/flomesh-io/fsm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Flomesh Service Mesh&lt;/a&gt;、&lt;a href=&#34;https://github.com/alibaba/higress&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Higress&lt;/a&gt;、&lt;a href=&#34;https://github.com/istio/istio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Istio&lt;/a&gt;、&lt;a href=&#34;https://github.com/kong/kubernetes-ingress-controller&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kong KIC&lt;/a&gt; 等。通过 Gateway API SIG，这些行业领先者将能够更深入地与国内开发者进行交流和合作，共同推动 Gateway API 技术的发展和应用。&lt;/p&gt;
 &lt;h3 id=&#34;gateway-api-sig-的核心任务&#34;&gt;Gateway API SIG 的核心任务&lt;/h3&gt;
 &lt;p&gt;Gateway API SIG 将专注于以下几个核心任务：&lt;/p&gt;
 &lt;ol&gt;
@@ -56,10 +56,10 @@
 &lt;figure  id=&#34;figure-入群助手二维码&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;入群助手二维码&#34; srcset=&#34;
-               /k8s-gateway-api/blog/join/yyssq1-wechat_hue8053a4be82fd8dc125adc6537aa10c9_26666_7e65a713714b3ac5d13d09ce0f77e40f.webp 400w,
-               /k8s-gateway-api/blog/join/yyssq1-wechat_hue8053a4be82fd8dc125adc6537aa10c9_26666_884cf3ce9b26adb086e5bfe336eaafbb.webp 760w,
-               /k8s-gateway-api/blog/join/yyssq1-wechat_hue8053a4be82fd8dc125adc6537aa10c9_26666_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://cloudnative.to/k8s-gateway-api/k8s-gateway-api/blog/join/yyssq1-wechat_hue8053a4be82fd8dc125adc6537aa10c9_26666_7e65a713714b3ac5d13d09ce0f77e40f.webp&#34;
+               /k8s-gateway-api/blog/join/yyssq1-wechat_hu027e9a4a70edbe8e717bf8d1d80a007e_29594_e20314a3f066afc61e56c730784de40f.webp 400w,
+               /k8s-gateway-api/blog/join/yyssq1-wechat_hu027e9a4a70edbe8e717bf8d1d80a007e_29594_9b2cf0a269310f13a666cac515c0eccb.webp 760w,
+               /k8s-gateway-api/blog/join/yyssq1-wechat_hu027e9a4a70edbe8e717bf8d1d80a007e_29594_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://cloudnative.to/k8s-gateway-api/k8s-gateway-api/blog/join/yyssq1-wechat_hu027e9a4a70edbe8e717bf8d1d80a007e_29594_e20314a3f066afc61e56c730784de40f.webp&#34;
                width=&#34;128px&#34;
                height=&#34;344&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
